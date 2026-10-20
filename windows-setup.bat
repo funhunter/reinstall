@@ -169,7 +169,7 @@ rem 重新分区/格式化
     echo create part msr size=16
 
     rem 3
-    echo create part primary
+    echo create part primary size=81920
     echo format fs=ntfs quick
     rem echo assign letter=Z
 
