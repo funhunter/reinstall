@@ -181,7 +181,7 @@ rem 重新分区/格式化
     echo delete part override
 
     rem 1
-    echo create part primary
+    echo create part primary size=81920
     echo format fs=ntfs quick
     echo active
     rem echo assign letter=Z
